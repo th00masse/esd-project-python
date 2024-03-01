@@ -45,6 +45,26 @@ plt.xticks(rotation=45, ha='right')
 
 st.pyplot(fig)
 
+df['Last_5_Points'] = df['Last 5'].apply(lambda x: x.count('W')*3 + x.count('D'))
+
+df_sorted_by_last_5_points = df.sort_values(by='Last_5_Points', ascending=False)
+
+fig, ax = plt.subplots()
+bars = ax.bar(df_sorted_by_last_5_points['Squad'], df_sorted_by_last_5_points['Last_5_Points'], color='blue')
+
+
+for bar in bars:
+    yval = bar.get_height()
+    ax.text(bar.get_x() + bar.get_width()/2, yval, round(yval, 2), ha='center', va='bottom')
+
+ax.set_xlabel('Équipes')
+ax.set_ylabel('Points des 5 derniers matchs')
+ax.set_title('Performance des équipes basée sur les 5 derniers matchs')
+
+plt.xticks(rotation=45, ha='right')
+
+st.pyplot(fig)
+
 df.fillna(value={'Playing Time': 0, 'Performance': 0, 'Expected': 0, 'Progression': 0, 'Per 90 Minutes': 0}, inplace=True)
 
 st.sidebar.title("Sélection des équipes")
