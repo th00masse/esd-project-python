@@ -41,9 +41,19 @@ https://youtu.be/ZZ4B0QUHuNc?si=_h0i-oixYi_94Frm
     - Sélectionnez deux équipes dans la barre latérale.
     - Explorez les statistiques détaillées dans la section principale.
     - Utilisez le bouton pour calculer la probabilité de victoire entre les équipes choisies.
-  
+   
+Pistes d'Améliorations
+J'envisage  plusieurs améliorations pour cette application, notamment :
+
+Développement du Modèle de Prédiction: Travailler à enrichir le modèle de prédiction pour améliorer la précision des estimations de probabilité de victoire.
+
+Affichage des Prochains Matchs: Une fonctionnalité future consistera à afficher les prochains matchs des équipes sélectionnées, offrant ainsi aux utilisateurs une vue plus complète des événements à venir.
+
+Prédictions en Temps Réel: J'explore la possibilité d'intégrer des prédictions en temps réel basées sur les performances actuelles des équipes, offrant ainsi une expérience plus dynamique aux utilisateurs.
+
+Développement d'Avantages de Data Visualization: Je prévoie  d'ajouter plus de graphiques et de visualisations pour rendre les statistiques encore plus accessibles et informatives.
       
 
 ## Contact
 
-Pour toute question ou suggestion, n'hésitez pas à nous contacter. Merci de l'intérêt porté à notre application !
+Pour toute question ou suggestion, n'hésitez pas à me contacter. Merci de l'intérêt d'avoir lu !
