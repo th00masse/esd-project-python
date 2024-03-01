@@ -1,52 +1,33 @@
-# Projet de Scrapping Sportif
+# Statistiques Sportives
 
-## Description
+## Présentation
 
-Ce projet a été réalisé dans le cadre d'un projet d'école etc'est un code Python dédié au scraping de données sportives. L'objectif principal est de collecter des données pertinentes pour permettre une analyse approfondie des statistiques sportives dans une deuxième phase du projet.
-
-## Fonctionnalités
-
-- **Scraping de Données :** Le code inclut des scripts de scraping pour collecter des données sportives à partir de sources en ligne.
-  
-- **Stockage des Données :** Les données collectées sont stockées de manière structurée pour faciliter l'analyse ultérieure.
-
-- **Analyse de Statistiques :** Une fois les données collectées, le projet vise à fournir des fonctionnalités d'analyse statistique pour extraire des insights significatifs.
+Bienvenue dans l'application Statistiques Sportives, un projet développé dans le cadre d'un projet scolaire. Cette application utilise Python et Streamlit pour fournir une interface graphique intuitive permettant d'explorer les performances sportives, de comparer les équipes et d'estimer la probabilité de victoire.
 
 ## Technologies Utilisées
 
-- **Python :** Le langage de programmation principal pour le développement du projet.
-  
-- **Bibliothèques Python :** Utilisation de bibliothèques telles que Beautiful Soup, Requests, et autres, pour le scraping de données.
+- **Python:** Langage de programmation principal utilisé pour le développement de l'application.
+- **Streamlit:** Bibliothèque Python pour la création rapide d'applications web interactives.
 
-## Comment Utiliser
+## Objectif de l'Application
 
-1. **Installation des Dépendances :** Assurez-vous d'installer les dépendances requises en utilisant la commande suivante :
-    ```bash
-    pip install -r requirements.txt
-    ```
+L'objectif principal de cette application est de permettre aux utilisateurs d'explorer en détail les statistiques des équipes sportives, en mettant l'accent sur la comparaison entre deux équipes spécifiques. Les fonctionnalités principales incluent la sélection d'équipes, l'affichage de statistiques détaillées et le calcul de la probabilité de victoire entre les équipes choisies.
 
-2. **Exécution du Scraper :** Lancez le script de scraping avec la commande appropriée :
-    ```bash
-    python scraper.py
-    ```
+## Comment Utiliser l'Application
 
-3. **Analyse des Statistiques :** Une fois les données collectées, utilisez les scripts d'analyse statistique disponibles dans le dossier "analytics".
+1. **Installation des Dépendances:**
+    - Assurez-vous d'avoir Python installé sur votre machine.
+    - Installez les dépendances nécessaires en exécutant `pip install -r requirements.txt`.
 
-## Contributions
+2. **Exécution de l'Application:**
+    - Lancez l'application en exécutant la commande `streamlit run app.py` dans le terminal.
+    - Ouvrez votre navigateur et accédez à l'URL fournie.
 
-Les contributions au projet sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre ces étapes :
+3. **Utilisation de l'Application:**
+    - Sélectionnez deux équipes dans la barre latérale.
+    - Explorez les statistiques détaillées dans la section principale.
+    - Utilisez le bouton pour calculer la probabilité de victoire entre les équipes choisies.
 
-1. Créez une branche pour votre fonctionnalité ou correction de bogue : `git checkout -b feature/nouvelle-fonctionnalite`.
-2. Faites vos modifications et commit avec un message descriptif : `git commit -m "Ajout de la nouvelle fonctionnalité"`.
-3. Poussez vos modifications vers la branche : `git push origin feature/nouvelle-fonctionnalite`.
-4. Créez une pull request sur GitHub.
+## Contact
 
-## Auteurs
-
-- Thomasse Toumi Kandza - Développeur principal
-
-## Licence
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
+Pour toute question ou suggestion, n'hésitez pas à nous contacter. Merci de l'intérêt porté à notre application !
