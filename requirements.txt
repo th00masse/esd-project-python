@@ -1,0 +1,8 @@
+bs4
+table
+stats
+fixtures
+lxml
+requests
+matplotlib.pyplot
+numpy 
