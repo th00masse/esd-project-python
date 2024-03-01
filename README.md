@@ -27,6 +27,22 @@ L'objectif principal de cette application est de permettre aux utilisateurs d'ex
     - Sélectionnez deux équipes dans la barre latérale.
     - Explorez les statistiques détaillées dans la section principale.
     - Utilisez le bouton pour calculer la probabilité de victoire entre les équipes choisies.
+  
+## Les tutos qui m'ont aidé à créer l'application
+
+https://youtu.be/Nt7WJa2iu0s?si=U2d113wEAeT9i4MO
+https://youtu.be/ZZ4B0QUHuNc?si=_h0i-oixYi_94Frm
+
+2. **Exécution de l'Application:**
+    - Lancez l'application en exécutant la commande `streamlit run app.py` dans le terminal.
+    - Ouvrez votre navigateur et accédez à l'URL fournie.
+
+3. **Utilisation de l'Application:**
+    - Sélectionnez deux équipes dans la barre latérale.
+    - Explorez les statistiques détaillées dans la section principale.
+    - Utilisez le bouton pour calculer la probabilité de victoire entre les équipes choisies.
+  
+      
 
 ## Contact
 
